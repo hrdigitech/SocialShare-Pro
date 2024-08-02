@@ -53,6 +53,7 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
+        versionCode 3
     }
 
     signingConfigs {
@@ -75,5 +76,5 @@ flutter {
 }
 
 dependencies {
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.material:material:1.9.0'
 }

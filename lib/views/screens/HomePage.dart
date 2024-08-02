@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "WhatsApp Direct Chat",
+          "Direct Chat",
           style: GoogleFonts.poppins(
             textStyle: TextStyle(
               color: WhiteText,
